@@ -13,5 +13,3 @@ with open('log.txt', 'w') as f:
         f.write(a + '    CPU: ' + usage)
         f.write('\n')
         print(usage)
-
-        # print('The CPU usage is: ', psutil.cpu_percent(1))
